@@ -1,0 +1,70 @@
+2015-01-11 12:48:22 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:25: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 14:26:19 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/test.erl:2: Error: no module definition
+2015-01-11 14:32:33 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/test.erl:none: Error: no such file or directory
+2015-01-11 14:36:24 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/test.erl:none: Error: no such file or directory
+2015-01-11 14:37:22 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/test.erl:none: Error: no such file or directory
+2015-01-11 20:55:55 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 20:57:11 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:04:13 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:03 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:09 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:10 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:12 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:14 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:18 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:17: Error: syntax error before: "abcdefg"
+2015-01-11 21:05:21 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:23 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:05:24 =ERROR REPORT====
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:7: Warning: record test is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:15: Warning: function test/0 is unused
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:16: Warning: the result of the expression is ignored (suppress the warning by assigning the expression to the _ variable)
+/Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
+2015-01-11 21:06:31 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_conn_sup}
+     Context:    shutdown_error
+     Reason:     normal
+     Offender:   [{nb_children,2},{name,reddy_conn},{mfargs,{reddy_conn,start_link,[]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+

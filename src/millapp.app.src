@@ -1,0 +1,14 @@
+{application, millapp,
+    [
+        {description, "The Mill application"},
+        {vsn, "1.0"},
+        {registered, [millapp]},
+        {applications, [
+                kernel,
+                stdlib,
+                crypto,
+                cowboy
+                ]},
+        {mod, { millapp_app, []}},
+        {env, []}
+        ]}.
