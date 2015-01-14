@@ -1,4 +1,4 @@
--module(millapp_app).
+-module(little_app).
 
 -behaviour(application).
 
@@ -10,7 +10,8 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    millapp_sup:start_link().
+    lager:start(),
+    littleapp_sup:start_link().
 
 stop(_State) ->
     ok.

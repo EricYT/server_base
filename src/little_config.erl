@@ -1,9 +1,9 @@
 
 
-%% mill config file
+%% little config file
 %%
 %%
--module(mill_config).
+-module(little_config).
 
 -export([get/2]).
 
@@ -12,6 +12,14 @@
     Key1 :: string(),
     Key2 :: string(),
     Value :: any().
+%% Http config
+get("http", "host") ->
+    "127.0.0.1";
+get("http", "port") ->
+    9527;
+get("http", "count") ->
+    10;
+
 %% redis config
 get("redis_server", "host") ->
     "127.0.0.1";

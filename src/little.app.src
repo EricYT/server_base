@@ -1,14 +1,14 @@
-{application, millapp,
+{application, little,
     [
-        {description, "The Mill application"},
+        {description, "The Little application"},
         {vsn, "1.0"},
-        {registered, [millapp]},
+        {registered, [little]},
         {applications, [
                 kernel,
                 stdlib,
                 crypto,
                 cowboy
                 ]},
-        {mod, { millapp_app, []}},
+        {mod, { little_app, []}},
         {env, []}
         ]}.

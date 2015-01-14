@@ -1,4 +1,4 @@
--module(millapp_sup).
+-module(littleapp_sup).
 
 -behaviour(supervisor).
 
@@ -23,6 +23,6 @@ start_link() ->
 %% ===================================================================
 
 init([]) ->
-    Child = ?CHILD(mill_web, worker),
+    Child = ?CHILD(little_web, worker),
     {ok, { {one_for_one, 5, 10}, [Child]} }.
 

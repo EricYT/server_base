@@ -1,4 +1,4 @@
--module(mill_web).
+-module(little_web).
 
 -behaviour(gen_server).
 
@@ -13,7 +13,7 @@
          terminate/2,
          code_change/3]).
 
--include("mill.hrl").
+-include("little.hrl").
 
 -record(state, {}).
 
@@ -50,12 +50,18 @@ init([]) ->
     %% cowboy http
     TransOpts = cowboy_router:compile([
                 {'_', [
-                        {"/ping", mill_ping_handler, []}
+                        {"/ping", little_ping_handler, []}
                       ]}
                 ]),
-    cowboy:start_http(?MILL_WEB_NAME, 10, [{port, 9527}], [{env, [{dispatch, TransOpts}]}]),
+    Port = little_config:get("http", "port"),
+    Count = little_config:get("http", "count"),
+    lager:debug("-------> http server: port:~p count:~p", [Port, Count]),
+    cowboy:start_http(?LITTLE_WEB_NAME, Count, [{port, Port}], [{env, [{dispatch, TransOpts}]}]),
     %% redis pool
-    mill_cache:start(),
+    little_cache:start(),
+
+    %% mysql start
+    mysql:start(),
     {ok, #state{}}.
 
 %%--------------------------------------------------------------------

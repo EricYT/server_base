@@ -1,6 +1,6 @@
 
 
--module(mill_transform).
+-module(little_transform).
 
 -export([parse_transform/2]).
 

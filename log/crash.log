@@ -68,3 +68,512 @@
      Reason:     normal
      Offender:   [{nb_children,2},{name,reddy_conn},{mfargs,{reddy_conn,start_link,[]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
 
+2015-01-14 20:52:19 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {undef,[{mill_config,get,["redis_server","host"],[]},{little_cache,start,0,[{file,"src/little_cache.erl"},{line,13}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,61}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 20:52:19 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.111.0>
+    registered_name: []
+    exception exit: {{undef,[{mill_config,get,["redis_server","host"],[]},{little_cache,start,0,[{file,"src/little_cache.erl"},{line,13}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,61}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.109.0>]
+    messages: []
+    links: [<0.110.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 594
+  neighbours:
+2015-01-14 20:52:19 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.108.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{undef,[{mill_config,get,["redis_server","host"],[]},{little_cache,start,0,[{file,"src/little_cache.erl"},{line,13}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,61}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.107.0>]
+    messages: [{'EXIT',<0.109.0>,normal}]
+    links: [<0.107.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 168
+  neighbours:
+2015-01-14 21:13:24 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:8: Warning: this clause cannot match because a previous clause at line 7 always matches
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled with 1 warnings
+2015-01-14 21:14:07 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:10: Error: syntax error before: 
+2015-01-14 21:14:36 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:42 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:52 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:53 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:15:04 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:12: Error: syntax error before: 
+2015-01-14 21:47:56 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{function_clause,[{mysql_config,get,["mysql","database"],[{file,"src/conf/mysql_config.erl"},{line,7}]},{mysql,start,0,[{file,"src/model/mysql.erl"},{line,12}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 628
+  neighbours:
+2015-01-14 21:47:56 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {function_clause,[{mysql_config,get,["mysql","database"],[{file,"src/conf/mysql_config.erl"},{line,7}]},{mysql,start,0,[{file,"src/model/mysql.erl"},{line,12}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 21:47:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{function_clause,[{mysql_config,get,["mysql","database"],[{file,"src/conf/mysql_config.erl"},{line,7}]},{mysql,start,0,[{file,"src/model/mysql.erl"},{line,12}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 178
+  neighbours:
+2015-01-14 21:48:56 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{failed_to_connect_to_database,econnrefused},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1690
+  neighbours:
+2015-01-14 21:48:56 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {failed_to_connect_to_database,econnrefused}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 21:48:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{failed_to_connect_to_database,econnrefused}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 116
+  neighbours:
+2015-01-14 21:57:39 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1948
+  neighbours:
+2015-01-14 21:57:39 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 21:57:39 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-01-14 21:59:36 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 21:59:36 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1949
+  neighbours:
+2015-01-14 21:59:36 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-01-14 22:13:26 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 22:13:26 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1948
+  neighbours:
+2015-01-14 22:13:26 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-01-14 22:17:02 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1946
+  neighbours:
+2015-01-14 22:17:02 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 22:17:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-01-14 22:33:02 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1948
+  neighbours:
+2015-01-14 22:33:02 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 22:33:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-01-14 23:27:51 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2761
+  neighbours:
+2015-01-14 23:27:51 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 23:27:51 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 147
+  neighbours:
+2015-01-14 23:29:54 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 23:29:54 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2730
+  neighbours:
+2015-01-14 23:29:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 147
+  neighbours:
+2015-01-14 23:30:33 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3181
+  neighbours:
+2015-01-14 23:30:33 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 23:30:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 120
+  neighbours:
+2015-01-14 23:33:29 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:33:30 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:33:32 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:35:14 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:38:33 =SUPERVISOR REPORT====
+     Supervisor: {local,littleapp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,undefined},{name,little_web},{mfargs,{little_web,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-14 23:38:33 =CRASH REPORT====
+  crasher:
+    initial call: little_web:init/1
+    pid: <0.117.0>
+    registered_name: []
+    exception exit: {{{badmatch,{"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [littleapp_sup,<0.115.0>]
+    messages: []
+    links: [<0.116.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2022
+  neighbours:
+2015-01-14 23:38:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.114.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,little_web,{{badmatch,{"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.113.0>]
+    messages: [{'EXIT',<0.115.0>,normal}]
+    links: [<0.113.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 248
+  neighbours:

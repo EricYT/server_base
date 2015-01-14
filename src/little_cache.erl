@@ -1,8 +1,8 @@
 
-%% mill redis cache module
--module(mill_cache).
+%% little redis cache module
+-module(little_cache).
 
--include("mill.hrl").
+-include("little.hrl").
 
 -export([start/0]).
 
@@ -10,17 +10,17 @@
 
 
 start() ->
-    Host = mill_config:get("redis_server", "host"),
-    Port = mill_config:get("redis_server", "port"),
-    Pass = mill_config:get("redis_server", "pass"),
-    Count= mill_config:get("redis_server", "count"),
+    Host = little_config:get("redis_server", "host"),
+    Port = little_config:get("redis_server", "port"),
+    Pass = little_config:get("redis_server", "pass"),
+    Count= little_config:get("redis_server", "count"),
     Options = [
         {ip,        Host},
         {port,      Port},
         {pass,      Pass},
         {count,     Count}
     ],
-    reddy_pool:new_pool(?MILL_POOL, Options).
+    reddy_pool:new_pool(?LITTLE_POOL, Options).
 
 
 %% cahce operator functions

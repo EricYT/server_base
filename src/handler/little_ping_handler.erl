@@ -1,4 +1,4 @@
--module(mill_ping_handler).
+-module(little_ping_handler).
 %%-behaviour(cowboy_http_handler).
 
 -export([init/2]).
@@ -6,7 +6,7 @@
 -export([terminate/3]).
 -export([upgrade/6]).
 
--include("mill.hrl").
+-include("little.hrl").
 -record(state, {
 }).
 

@@ -1,10 +1,10 @@
 
--module(mill).
+-module(little).
 
 -export([start/0]).
 
 start() ->
-    io:format("-----------> start mill app ~n"),
+    io:format("-----------> start little app ~n"),
     
     application:start(sasl),
     application:start(crypto),
@@ -20,8 +20,12 @@ start() ->
     application:start(cowlib),
     application:start(cowboy),
 
+    application:start(lhttpc),
+
+    application:start(emysql),
+
     application:start(reddy),
 
-    application:start(millapp),
+    application:start(little),
     
     ok.

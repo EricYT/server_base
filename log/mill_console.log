@@ -110,3 +110,262 @@
 /Users/yutao/Documents/erlang/mill/src/util/util.erl:0: Recompiled with 1 warnings
 2015-01-11 21:05:24.805 [info] <0.54.0> util: Reloaded! (Beam changed.)
 2015-01-11 21:06:31.523 [error] <0.105.0> Supervisor reddy_conn_sup had child reddy_conn started with reddy_conn:start_link() at undefined exit with reason normal in context shutdown_error
+2015-01-14 20:26:20.694 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:26:20.709 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:26:20.711 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:26:20.720 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:26:20.724 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:27:50.270 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:27:50.273 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:27:50.275 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:27:50.279 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:27:50.282 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:32:50.830 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:32:50.833 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:32:50.835 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:32:50.839 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:32:50.842 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:34:13.739 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:34:13.742 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:34:13.743 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:34:13.747 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:34:13.750 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:46:01.878 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:46:01.884 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:46:01.886 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:46:01.894 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:46:01.899 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:47:53.456 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:47:53.461 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:47:53.463 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:47:53.470 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:47:53.474 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:50:55.808 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:50:55.811 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:50:55.813 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:50:55.820 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:50:55.823 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.808 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.812 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.814 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.821 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.825 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:52:19.865 [error] <0.110.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason call to undefined function mill_config:get("redis_server", "host") in context start_error
+2015-01-14 20:52:19.866 [error] <0.111.0> CRASH REPORT Process <0.111.0> with 0 neighbours exited with reason: call to undefined function mill_config:get("redis_server", "host") in gen_server:init_it/6 line 330
+2015-01-14 20:52:19.866 [error] <0.108.0> CRASH REPORT Process <0.108.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{undef,[{mill_config,get,["redis_server","host"],[]},{little_cache,start,0,[{file,"src/little_cache.erl"},{line,13}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,61}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-01-14 20:52:19.866 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{undef,[{mill_config,get,["redis_server","host"],[]},{little_cache,start,0,[{file,"src/little_cache.erl"},{line,13}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,61}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}}
+2015-01-14 20:54:20.411 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 20:54:20.415 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 20:54:20.416 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 20:54:20.421 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 20:54:20.424 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 20:54:20.478 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-14 20:54:43.381 [info] <0.187.0>@little_ping_handler:init:15 ------> lager info
+2015-01-14 20:54:43.381 [error] <0.187.0>@little_ping_handler:init:16 ------> lager error
+2015-01-14 21:12:11.977 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little_config.erl:0: Recompiled.
+2015-01-14 21:12:12.008 [info] <0.54.0> little_config: Reloaded! (Beam changed.)
+2015-01-14 21:13:24.357 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:8: Warning: this clause cannot match because a previous clause at line 7 always matches
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled with 1 warnings
+2015-01-14 21:14:07.487 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:10: Error: syntax error before: 
+2015-01-14 21:14:36.039 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:42.187 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:52.412 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:14:53.451 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:11: Error: syntax error before: 
+2015-01-14 21:15:04.658 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:4: Error: function get/2 undefined
+/Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:12: Error: syntax error before: 
+2015-01-14 21:15:22.999 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:15:23.018 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:15:25.084 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:15:25.106 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:15:26.175 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:15:26.203 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:15:58.080 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:15:58.141 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:15:59.135 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:15:59.160 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:16:01.268 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:16:01.295 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:16:27.084 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 21:16:27.212 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 21:36:20.657 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little.erl:0: Recompiled.
+2015-01-14 21:36:20.663 [info] <0.54.0> little: Reloaded! (Beam changed.)
+2015-01-14 21:36:21.672 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little.erl:0: Recompiled.
+2015-01-14 21:36:21.677 [info] <0.54.0> little: Reloaded! (Beam changed.)
+2015-01-14 21:36:22.689 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little.erl:0: Recompiled.
+2015-01-14 21:36:22.698 [info] <0.54.0> little: Reloaded! (Beam changed.)
+2015-01-14 21:36:50.194 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.208 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.211 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.220 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.231 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.236 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 21:36:50.287 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.367 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.370 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.372 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.377 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.387 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.390 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 21:47:56.431 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no function clause matching mysql_config:get("mysql", "database") line 7 in gen_server:init_it/6 line 330
+2015-01-14 21:47:56.431 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no function clause matching mysql_config:get("mysql", "database") line 7 in context start_error
+2015-01-14 21:47:56.431 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{function_clause,[{mysql_config,get,["mysql","database"],[{file,"src/conf/mysql_config.erl"},{line,7}]},{mysql,start,0,[{file,"src/model/mysql.erl"},{line,12}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-01-14 21:47:56.432 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{function_clause,[{mysql_config,get,["mysql","database"],[{file,"src/conf/mysql_config.erl"},{line,7}]},{mysql,start,0,[{file,"src/model/mysql.erl"},{line,12}]},{little_web,init,1,[{file,"src/little_web.erl"},{line,64}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{little_app,start,[normal,[]]}}
+2015-01-14 21:48:56.009 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.013 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.015 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.021 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.028 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.030 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 21:48:56.077 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {failed_to_connect_to_database,econnrefused} in gen_server:init_it/6 line 330
+2015-01-14 21:48:56.077 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason {failed_to_connect_to_database,econnrefused} in context start_error
+2015-01-14 21:48:56.077 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{failed_to_connect_to_database,econnrefused}}},{little_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-01-14 21:48:56.077 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{failed_to_connect_to_database,econnrefused}}},{little_app,start,[normal,[]]}}
+2015-01-14 21:57:39.102 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.105 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.107 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.112 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.119 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.122 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 21:57:39.176 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in gen_server:init_it/6 line 330
+2015-01-14 21:57:39.176 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in context start_error
+2015-01-14 21:57:39.176 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 21:57:39.177 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"ZTx!4%[zv`]2",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...}
+2015-01-14 21:59:03.580 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/model/mysql.erl:0: Recompiled.
+2015-01-14 21:59:03.585 [info] <0.54.0> mysql: Reloaded! (Beam changed.)
+2015-01-14 21:59:08.642 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/model/mysql.erl:0: Recompiled.
+2015-01-14 21:59:08.649 [info] <0.54.0> mysql: Reloaded! (Beam changed.)
+2015-01-14 21:59:35.962 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 21:59:35.965 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 21:59:35.967 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 21:59:35.974 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 21:59:35.981 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 21:59:35.984 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 21:59:36.026 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in context start_error
+2015-01-14 21:59:36.026 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in gen_server:init_it/6 line 330
+2015-01-14 21:59:36.027 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 21:59:36.027 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"CzaVh*6oOz;V",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...}
+2015-01-14 22:13:26.354 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.358 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.360 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.365 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.373 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.376 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 22:13:26.436 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in context start_error
+2015-01-14 22:13:26.436 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in gen_server:init_it/6 line 330
+2015-01-14 22:13:26.436 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 22:13:26.437 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"`|q@+THL$m{B",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...}
+2015-01-14 22:17:02.459 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.463 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.465 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.470 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.477 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.480 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 22:17:02.529 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in gen_server:init_it/6 line 330
+2015-01-14 22:17:02.529 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in context start_error
+2015-01-14 22:17:02.529 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 22:17:02.530 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"j}Wy}*R>#/d.",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...}
+2015-01-14 22:33:02.022 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.026 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.028 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.034 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.042 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.044 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 22:33:02.093 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in gen_server:init_it/6 line 330
+2015-01-14 22:33:02.094 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 55 in context start_error
+2015-01-14 22:33:02.094 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 22:33:02.094 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"La&5x~3|;Qd$",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"emysql_auth.erl"},{line,55}]},{emysql_auth,do_handshake,3,[{file,"emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{little_web,...},...]}}},...}
+2015-01-14 23:27:51.597 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.599 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.601 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.606 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.613 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.616 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:27:51.670 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in gen_server:init_it/6 line 330
+2015-01-14 23:27:51.670 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in context start_error
+2015-01-14 23:27:51.671 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},...]}}},...} in application_master:init/4 line 133
+2015-01-14 23:27:51.671 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"(\"o,))2`l|MK",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},...]}}},...}
+2015-01-14 23:29:54.590 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.594 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.595 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.600 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.608 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.611 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:29:54.654 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in context start_error
+2015-01-14 23:29:54.654 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in gen_server:init_it/6 line 330
+2015-01-14 23:29:54.655 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 23:29:54.655 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"+t,x=bVj2V=l",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,1,[{file,"emysql_conn.erl"},{line,95}]},{emysql,add_pool,8,[{file,"emysql.erl"},{line,70}]},{...},...]}}},...}
+2015-01-14 23:30:33.434 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.437 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.439 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.444 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.450 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.453 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:30:33.508 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: {failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"} in gen_server:init_it/6 line 330
+2015-01-14 23:30:33.508 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason {failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"} in context start_error
+2015-01-14 23:30:33.509 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"}}},{little_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-01-14 23:30:33.509 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{failed_to_set_database,"#42000Access denied for user 'little'@'localhost' to database 'little_db'"}}},{little_app,start,[normal,[]]}}
+2015-01-14 23:32:28.854 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.857 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.858 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.863 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.870 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.873 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:32:28.936 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-14 23:33:29.903 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:33:29.909 [info] <0.54.0> emysql_auth: Reloaded! (Beam changed.)
+2015-01-14 23:33:30.972 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:33:30.980 [info] <0.54.0> emysql_auth: Reloaded! (Beam changed.)
+2015-01-14 23:33:32.043 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:33:32.050 [info] <0.54.0> emysql_auth: Reloaded! (Beam changed.)
+2015-01-14 23:35:14.106 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-01-14 23:35:14.113 [info] <0.54.0> emysql_auth: Reloaded! (Beam changed.)
+2015-01-14 23:35:21.191 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/conf/mysql_config.erl:0: Recompiled.
+2015-01-14 23:35:21.197 [info] <0.54.0> mysql_config: Reloaded! (Beam changed.)
+2015-01-14 23:37:48.701 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/model/mysql.erl:0: Recompiled.
+2015-01-14 23:37:48.708 [info] <0.54.0> mysql: Reloaded! (Beam changed.)
+2015-01-14 23:38:33.863 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.866 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.869 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.874 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.881 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.885 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:38:33.936 [error] <0.116.0> Supervisor littleapp_sup had child little_web started with little_web:start_link() at undefined exit with reason no match of right hand value {"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in context start_error
+2015-01-14 23:38:33.936 [error] <0.117.0> CRASH REPORT Process <0.117.0> with 0 neighbours exited with reason: no match of right hand value {"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>} in emysql_auth:recv_greeting/1 line 56 in gen_server:init_it/6 line 330
+2015-01-14 23:38:33.937 [error] <0.114.0> CRASH REPORT Process <0.114.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,...},...]}}},...} in application_master:init/4 line 133
+2015-01-14 23:38:33.937 [info] <0.7.0> Application little exited with reason: {{shutdown,{failed_to_start_child,little_web,{{badmatch,{"n0@4!J/Nx49_",<<109,121,115,113,108,95,110,97,116,105,118,101,95,112,97,115,115,119,111,114,100,0>>}},[{emysql_auth,recv_greeting,1,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,56}]},{emysql_auth,do_handshake,3,[{file,"/Users/yutao/Documents/erlang/server_base/deps/emysql/src/emysql_auth.erl"},{line,32}]},{emysql_conn,open_connection,1,[{file,"emysql_conn.erl"},{line,105}]},{emysql_conn,open_connections,...},...]}}},...}
+2015-01-14 23:39:22.385 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.389 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.390 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.396 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.404 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.408 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-14 23:39:22.473 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
