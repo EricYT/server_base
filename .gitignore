@@ -2,3 +2,4 @@
 *.beam
 *.app
 *.dump*
+*.log*
