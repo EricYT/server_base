@@ -577,3 +577,185 @@
     stack_size: 27
     reductions: 248
   neighbours:
+2015-01-18 09:39:21 =CRASH REPORT====
+  crasher:
+    initial call: reddy_conn:init/1
+    pid: <0.132.0>
+    registered_name: []
+    exception exit: {{error,econnrefused},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_conn_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.111.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 233
+    stack_size: 27
+    reductions: 520
+  neighbours:
+2015-01-18 09:39:21 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_conn_sup}
+     Context:    child_terminated
+     Reason:     {error,econnrefused}
+     Offender:   [{pid,<0.132.0>},{name,reddy_conn},{mfargs,{reddy_conn,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:39:21 =CRASH REPORT====
+  crasher:
+    initial call: reddy_pool:init/1
+    pid: <0.131.0>
+    registered_name: []
+    exception exit: {{error,{error,econnrefused}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_pool_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.112.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 141
+  neighbours:
+2015-01-18 09:39:21 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_pool_sup}
+     Context:    child_terminated
+     Reason:     {error,{error,econnrefused}}
+     Offender:   [{pid,<0.131.0>},{name,reddy_pool},{mfargs,{reddy_pool,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:44:23 =CRASH REPORT====
+  crasher:
+    initial call: reddy_conn:init/1
+    pid: <0.132.0>
+    registered_name: []
+    exception exit: {{error,econnrefused},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_conn_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.111.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 233
+    stack_size: 27
+    reductions: 532
+  neighbours:
+2015-01-18 09:44:23 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_conn_sup}
+     Context:    child_terminated
+     Reason:     {error,econnrefused}
+     Offender:   [{pid,<0.132.0>},{name,reddy_conn},{mfargs,{reddy_conn,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:44:23 =CRASH REPORT====
+  crasher:
+    initial call: reddy_pool:init/1
+    pid: <0.131.0>
+    registered_name: []
+    exception exit: {{error,{error,econnrefused}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_pool_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.112.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 141
+  neighbours:
+2015-01-18 09:44:23 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_pool_sup}
+     Context:    child_terminated
+     Reason:     {error,{error,econnrefused}}
+     Offender:   [{pid,<0.131.0>},{name,reddy_pool},{mfargs,{reddy_pool,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:47:00 =CRASH REPORT====
+  crasher:
+    initial call: reddy_conn:init/1
+    pid: <0.132.0>
+    registered_name: []
+    exception exit: {{error,econnrefused},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_conn_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.111.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 233
+    stack_size: 27
+    reductions: 532
+  neighbours:
+2015-01-18 09:47:00 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_conn_sup}
+     Context:    child_terminated
+     Reason:     {error,econnrefused}
+     Offender:   [{pid,<0.132.0>},{name,reddy_conn},{mfargs,{reddy_conn,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:47:00 =CRASH REPORT====
+  crasher:
+    initial call: reddy_pool:init/1
+    pid: <0.131.0>
+    registered_name: []
+    exception exit: {{error,{error,econnrefused}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_pool_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.112.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 141
+  neighbours:
+2015-01-18 09:47:00 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_pool_sup}
+     Context:    child_terminated
+     Reason:     {error,{error,econnrefused}}
+     Offender:   [{pid,<0.131.0>},{name,reddy_pool},{mfargs,{reddy_pool,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:48:25 =CRASH REPORT====
+  crasher:
+    initial call: reddy_conn:init/1
+    pid: <0.132.0>
+    registered_name: []
+    exception exit: {{error,econnrefused},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_conn_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.111.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 546
+  neighbours:
+2015-01-18 09:48:25 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_conn_sup}
+     Context:    child_terminated
+     Reason:     {error,econnrefused}
+     Offender:   [{pid,<0.132.0>},{name,reddy_conn},{mfargs,{reddy_conn,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:48:25 =CRASH REPORT====
+  crasher:
+    initial call: reddy_pool:init/1
+    pid: <0.131.0>
+    registered_name: []
+    exception exit: {{error,{error,econnrefused}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,322}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [reddy_pool_sup,reddy_sup,<0.109.0>]
+    messages: []
+    links: [<0.112.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 141
+  neighbours:
+2015-01-18 09:48:25 =SUPERVISOR REPORT====
+     Supervisor: {local,reddy_pool_sup}
+     Context:    child_terminated
+     Reason:     {error,{error,econnrefused}}
+     Offender:   [{pid,<0.131.0>},{name,reddy_pool},{mfargs,{reddy_pool,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-01-18 09:57:46 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/task/test.erl:15: Error: can't find include file "ecrontab.hrl"
+2015-01-18 09:58:54 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/task/test.erl:none: Error: no such file or directory
+2015-01-18 09:58:56 =ERROR REPORT====
+/Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Error: Module definition (test) differs from expected (little_gc_task)

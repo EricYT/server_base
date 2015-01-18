@@ -369,3 +369,119 @@
 2015-01-14 23:39:22.404 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
 2015-01-14 23:39:22.408 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
 2015-01-14 23:39:22.473 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.273 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.288 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.291 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.299 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.309 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.314 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.363 [error] <0.132.0> CRASH REPORT Process <0.132.0> with 0 neighbours exited with reason: {error,econnrefused} in gen_server:init_it/6 line 322
+2015-01-18 09:39:21.364 [error] <0.111.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.132.0> exit with reason {error,econnrefused} in context child_terminated
+2015-01-18 09:39:21.364 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {error,{error,econnrefused}} in gen_server:init_it/6 line 322
+2015-01-18 09:39:21.364 [error] <0.112.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason {error,{error,econnrefused}} in context child_terminated
+2015-01-18 09:39:21.430 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:39:21.436 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:43:54.882 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:43:54.888 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:44:05.029 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:44:05.037 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:44:23.869 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.872 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.874 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.879 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.886 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.889 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.924 [error] <0.132.0> CRASH REPORT Process <0.132.0> with 0 neighbours exited with reason: {error,econnrefused} in gen_server:init_it/6 line 322
+2015-01-18 09:44:23.924 [error] <0.111.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.132.0> exit with reason {error,econnrefused} in context child_terminated
+2015-01-18 09:44:23.924 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {error,{error,econnrefused}} in gen_server:init_it/6 line 322
+2015-01-18 09:44:23.925 [error] <0.112.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason {error,{error,econnrefused}} in context child_terminated
+2015-01-18 09:44:23.960 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:44:23.966 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:44:55.119 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:44:55.130 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:45:35.574 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:45:35.583 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:45:36.643 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:45:36.652 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:45:38.728 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:45:38.738 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:47:00.211 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.214 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.216 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.221 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.228 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.231 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.261 [error] <0.132.0> CRASH REPORT Process <0.132.0> with 0 neighbours exited with reason: {error,econnrefused} in gen_server:init_it/6 line 322
+2015-01-18 09:47:00.262 [error] <0.111.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.132.0> exit with reason {error,econnrefused} in context child_terminated
+2015-01-18 09:47:00.262 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {error,{error,econnrefused}} in gen_server:init_it/6 line 322
+2015-01-18 09:47:00.262 [error] <0.112.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason {error,{error,econnrefused}} in context child_terminated
+2015-01-18 09:47:00.303 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:47:00.309 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.636 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.639 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.640 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.651 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.659 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.661 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.697 [error] <0.132.0> CRASH REPORT Process <0.132.0> with 0 neighbours exited with reason: {error,econnrefused} in gen_server:init_it/6 line 322
+2015-01-18 09:48:25.698 [error] <0.111.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.132.0> exit with reason {error,econnrefused} in context child_terminated
+2015-01-18 09:48:25.698 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: {error,{error,econnrefused}} in gen_server:init_it/6 line 322
+2015-01-18 09:48:25.698 [error] <0.112.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason {error,{error,econnrefused}} in context child_terminated
+2015-01-18 09:48:25.738 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:48:25.750 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:49:03.839 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:49:03.845 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:49:25.090 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/reddy/src/reddy_conn.erl:0: Recompiled.
+2015-01-18 09:49:25.098 [info] <0.54.0> reddy_conn: Reloaded! (Beam changed.)
+2015-01-18 09:53:32.582 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.587 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.589 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.596 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.606 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.610 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.685 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:53:32.691 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:55:00.232 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-01-18 09:55:00.281 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-01-18 09:55:00.292 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-01-18 09:55:00.299 [info] <0.54.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-01-18 09:55:00.302 [info] <0.54.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-01-18 09:55:06.945 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:55:06.947 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:55:06.949 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:55:06.958 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:06.969 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:55:06.972 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:07.040 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:55:07.046 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.014 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.016 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.018 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.023 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.031 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.034 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.098 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:55:12.104 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.240 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.243 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.245 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.250 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.257 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.260 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.321 [info] <0.7.0> Application little started on node 'eric@127.0.0.1'
+2015-01-18 09:55:35.328 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-01-18 09:57:46.472 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/test.erl:15: Error: can't find include file "ecrontab.hrl"
+2015-01-18 09:58:31.131 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-01-18 09:58:31.177 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-01-18 09:58:31.186 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-01-18 09:58:31.198 [info] <0.54.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-01-18 09:58:31.200 [info] <0.54.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-01-18 09:58:31.203 [info] <0.54.0> test: Reloaded! (Beam changed.)
+2015-01-18 09:58:54.425 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/test.erl:none: Error: no such file or directory
+2015-01-18 09:58:56.466 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Error: Module definition (test) differs from expected (little_gc_task)
+2015-01-18 09:59:15.694 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Recompiled.
+2015-01-18 09:59:23.774 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Recompiled.
+2015-01-18 09:59:52.055 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Recompiled.
+2015-01-18 09:59:52.062 [info] <0.54.0> little_gc_task: Reloaded! (Beam changed.)
+2015-01-18 10:03:23.014 [info] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Recompiled.
+2015-01-18 10:03:23.020 [info] <0.54.0> little_gc_task: Reloaded! (Beam changed.)

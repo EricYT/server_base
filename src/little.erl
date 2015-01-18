@@ -27,5 +27,7 @@ start() ->
     application:start(reddy),
 
     application:start(little),
+
+    application:start(ecrontab),
     
     ok.

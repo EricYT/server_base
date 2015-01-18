@@ -99,6 +99,7 @@ init([Owner, Addr, Port, Opts]) ->
                     {ok, #state{sock=Sock, tracefile=Path}}
             end;
         Error ->
+            io:format("-------->redis can not connected ~p~n", [{?MODULE, ?LINE, Error}]),
             {stop, Error}
     end.
 
