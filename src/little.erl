@@ -8,6 +8,9 @@ start() ->
     
     application:start(sasl),
     application:start(crypto),
+    application:start(asn1),
+    application:start(public_key),
+    application:start(ssl),
 
     application:start(sync),
 

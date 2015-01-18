@@ -144,3 +144,306 @@
 2015-01-18 09:57:46.472 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/test.erl:15: Error: can't find include file "ecrontab.hrl"
 2015-01-18 09:58:54.425 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/test.erl:none: Error: no such file or directory
 2015-01-18 09:58:56.466 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/task/little_gc_task.erl:0: Error: Module definition (test) differs from expected (little_gc_task)
+2015-01-18 15:18:33.231 [error] <0.692.0>@little_ping_handler:init:16 ------> lager error
+2015-01-18 15:20:10.668 [error] <0.1036.0>@little_ping_handler:init:16 ------> lager error
+2015-01-18 15:21:44.658 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:15: Warning: variable 'HostInfo' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:22:04.903 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:22:30.056 [error] emulator Error in process <0.1387.0> on node 'eric@127.0.0.1' with exit value: {[{reason,undef},{mfa,{little_ping_handler,init,2}},{stacktrace,[{cowboy_req,hostinfo,[{http_req,#Port<0.9351>,ranch_tcp,keepalive,<0.1387.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58715},<<9 bytes>>,undefined,9527,<<5 bytes>>,undefined,<<0 bytes>>,[],[{<<10 bytes>>,<<11 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<3 bytes>>}],[],waiting,<<0 bytes>>,undefined,false,waiting... 
+
+
+2015-01-18 15:22:30.057 [error] <0.119.0> Ranch listener little_web had connection process started with cowboy_protocol:start_link/4 at <0.1387.0> exit with reason: {[{reason,undef},{mfa,{little_ping_handler,init,2}},{stacktrace,[{cowboy_req,hostinfo,[{http_req,#Port<0.9351>,ranch_tcp,keepalive,<0.1387.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58715},<<"127.0.0.1">>,undefined,9527,<<"/ping">>,undefined,<<>>,[],[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"127.0.0.1:9527">>},{<<"accept">>,<<"*/*">>}],[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}],[]},{little_ping_handler,init,2,[{file,"/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl"},{line,15}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,39}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,464}]}]},{req,[{socket,#Port<0.9351>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.1387.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},58715}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9527},{path,<<"/ping">>},{path_info,undefined},{qs,<<>>},{bindings,[]},{headers,[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"127.0.0.1:9527">>},{<<"accept">>,<<"*/*">>}]},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,464}]}]}
+
+2015-01-18 15:28:22.320 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:28:23.372 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:28:38.961 [error] <0.2264.0>@little_ping_handler:init:17 ------> lager error
+2015-01-18 15:31:14.509 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:31:23.463 [error] <0.2656.0>@little_ping_handler:init:17 ------> lager error
+2015-01-18 15:42:39.082 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:15: Warning: variable 'HostInfo' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:42:47.495 [error] <0.4237.0>@little_ping_handler:init:17 ------> lager error
+2015-01-18 15:43:01.226 [error] <0.4270.0>@little_ping_handler:init:17 ------> lager error
+2015-01-18 15:44:26.311 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:15: Warning: variable 'Peer' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:44:35.453 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:15: Warning: variable 'Peer' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:44:41.560 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:22: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:44:43.610 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:50:41.134 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:50:42.184 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:52:02.139 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:52:03.199 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:52:22.313 [error] <0.119.0> Ranch listener little_web had connection process started with cowboy_protocol:start_link/4 at <0.5672.0> exit with reason: {{badmatch,{http_req,#Port<0.10234>,ranch_tcp,keepalive,<0.5672.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58828},<<"127.0.0.1">>,undefined,9527,<<"/ping">>,undefined,<<>>,[],[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"127.0.0.1:9527">>},{<<"accept">>,<<"*/*">>}],[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{little_ping_handler,upgrade,6,[{file,"/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl"},{line,23}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,464}]}]}
+
+2015-01-18 15:52:22.313 [error] emulator Error in process <0.5672.0> on node 'eric@127.0.0.1' with exit value: {{badmatch,{http_req,#Port<0.10234>,ranch_tcp,keepalive,<0.5672.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58828},<<9 bytes>>,undefined,9527,<<5 bytes>>,undefined,<<0 bytes>>,[],[{<<10 bytes>>,<<11 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<3 bytes>>}],[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{little_ping_handler,upgrade,6,[{file,"/Users/yutao/Documents/... 
+
+
+2015-01-18 15:53:25.193 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:53:26.243 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:53:32.358 [error] <0.119.0> Ranch listener little_web had connection process started with cowboy_protocol:start_link/4 at <0.5865.0> exit with reason: {{badmatch,{http_req,#Port<0.10381>,ranch_tcp,keepalive,<0.5865.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},58832},<<"127.0.0.1">>,undefined,9527,<<"/ping">>,undefined,<<>>,[],[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"127.0.0.1:9527">>},{<<"accept">>,<<"*/*">>}],[],waiting,<<>>,undefined,false,done,[],<<>>,undefined}},[{little_ping_handler,upgrade,6,[{file,"/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl"},{line,23}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,464}]}]}
+
+2015-01-18 15:53:32.358 [error] emulator Error in process <0.5865.0> on node 'eric@127.0.0.1' with exit value: {{badmatch,{http_req,#Port<0.10381>,ranch_tcp,keepalive,<0.5865.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},58832},<<9 bytes>>,undefined,9527,<<5 bytes>>,undefined,<<0 bytes>>,[],[{<<10 bytes>>,<<11 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<3 bytes>>}],[],waiting,<<0 bytes>>,undefined,false,done,[],<<0 bytes>>,undefined}},[{little_ping_handler,upgrade,6,[{file,"/Users/yutao/Documents/... 
+
+
+2015-01-18 15:56:01.883 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:56:25.197 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:56:53.581 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 15:57:08.792 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:00:53.072 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:03:46.852 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:04:37.472 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:08.855 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Req' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: variable 'Req2' is unbound
+2015-01-18 16:05:10.893 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Req' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: variable 'Req2' is unbound
+2015-01-18 16:05:13.960 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:15.009 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:17.866 [error] emulator Bad value on output port 'tcp_inet'
+
+
+2015-01-18 16:05:17.867 [error] <0.119.0> Ranch listener little_web had connection process started with cowboy_protocol:start_link/4 at <0.7627.0> exit with reason: {{badmatch,{error,einval}},[{cowboy_req,response,6,[{file,"src/cowboy_req.erl"},{line,1088}]},{cowboy_req,reply_no_compress,8,[{file,"src/cowboy_req.erl"},{line,840}]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,795}]},{cowboy_req,ensure_response,2,[{file,"src/cowboy_req.erl"},{line,922}]},{cowboy_protocol,next_request,3,[{file,"src/cowboy_protocol.erl"},{line,490}]}]}
+
+2015-01-18 16:05:17.867 [error] emulator Error in process <0.7627.0> on node 'eric@127.0.0.1' with exit value: {{badmatch,{error,einval}},[{cowboy_req,response,6,[{file,"src/cowboy_req.erl"},{line,1088}]},{cowboy_req,reply_no_compress,8,[{file,"src/cowboy_req.erl"},{line,840}]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,795}]},{cowboy_req... 
+
+
+2015-01-18 16:05:38.241 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:48.394 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:54.504 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:55.545 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:56.596 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:05:58.651 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:06:41.164 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:21: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:11:51.919 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:15:57.464 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:16:18.719 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:16:23.789 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:16:58.242 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:17:10.430 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:17:19.581 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:25:30.998 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:25:43.147 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:25:44.173 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:7: Error: function upgrade/6 undefined
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:25: Error: syntax error before: ')'
+2015-01-18 16:25:56.352 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:26:07.527 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:26:18.700 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:26:30.854 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 16:27:34.700 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 18:03:49.622 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 19:18:34.189 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:13: Warning: variable 'Opts' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:14: Warning: variable 'Method' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'Handler' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:23: Warning: variable 'State' is unused
+/Users/yutao/Documents/erlang/server_base/src/handler/little_ping_handler.erl:0: Recompiled with 1 warnings
+2015-01-18 19:22:54.865 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little_web.erl:9: Error: function init/1 undefined
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:18: Warning: record state is unused
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:54: Error: syntax error before: '{'
+2015-01-18 19:23:05.989 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little_web.erl:9: Error: function init/1 undefined
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:18: Warning: record state is unused
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:54: Error: syntax error before: '{'
+2015-01-18 19:23:07.016 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/little_web.erl:9: Error: function init/1 undefined
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:18: Warning: record state is unused
+/Users/yutao/Documents/erlang/server_base/src/little_web.erl:54: Error: syntax error before: '{'
+2015-01-18 20:20:24.046 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:8: Error: variable 'Body' is unbound
+/Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:8: Error: variable 'Hdrs' is unbound
+/Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:8: Error: variable 'Method' is unbound
+/Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:8: Error: variable 'Timeout' is unbound
+/Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:8: Error: variable 'Url' is unbound
+2015-01-18 20:20:37.226 [error] <0.54.0> /Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:5: Error: function run/0 undefined
+/Users/yutao/Documents/erlang/server_base/src/http_test/http_test.erl:7: Warning: function run/5 is unused
+2015-01-18 20:55:58.090 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: no match of right hand value false in ranch_ssl:listen/1 line 81 in gen_server:init_it/6 line 330
+2015-01-18 20:55:58.090 [error] <0.132.0> Supervisor {<0.132.0>,ranch_listener_sup} had child ranch_acceptors_sup started with ranch_acceptors_sup:start_link(little_web, 10, ranch_ssl, [{port,9527}]) at undefined exit with reason no match of right hand value false in ranch_ssl:listen/1 line 81 in context start_error
+2015-01-18 22:45:17.297 [error] <0.63.0> /Users/yutao/Documents/erlang/server_base/src/little_web.erl:none: Error: no such file or directory

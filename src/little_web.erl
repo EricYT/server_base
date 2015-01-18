@@ -50,13 +50,19 @@ init([]) ->
     %% cowboy http
     TransOpts = cowboy_router:compile([
                 {'_', [
-                        {"/ping", little_ping_handler, []}
+                        {"/ping[...]/", little_ping_handler, []},
+                        {"/pong", little_ping_handler, [{a, b}]}
                       ]}
                 ]),
     Port = little_config:get("http", "port"),
     Count = little_config:get("http", "count"),
     lager:debug("-------> http server: port:~p count:~p", [Port, Count]),
+    lager:debug("-------> http TransOpts: ~p", [TransOpts]),
     cowboy:start_http(?LITTLE_WEB_NAME, Count, [{port, Port}], [{env, [{dispatch, TransOpts}]}]),
+    %%
+%%    lager:debug("-------> https server: port:~p count:~p", [Port, Count]),
+ %%   cowboy:start_https(?LITTLE_WEB_NAME, Count, [{port, Port}], [{env, [{dispatch, TransOpts}]}]),
+
     %% redis pool
     little_cache:start(),
 

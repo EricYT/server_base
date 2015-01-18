@@ -12,15 +12,21 @@
 
 init(Req, Opts) ->
     Method = cowboy_req:method(Req),
-    lager:info("------> lager info"),
-    lager:error("------> lager error"),
-    %%io:format("--------> Opts : ~p  Req : ~p Method: ~p~n", [Opts, Req, Method]),
+    Peer = cowboy_req:peer(Req),
+    HasBody = cowboy_req:has_body(Req),
+    lager:info("------> lager opts:~p", [Opts]),
+    lager:info("------> lager info:~p", [Req]),
+    lager:debug("------> Peer info:~p", [Peer]),
+    lager:debug("------> has body:~p", [HasBody]),
     lager:debug("------> lager debug"),
 	{?MODULE, Req, #state{}}.
 
 upgrade(Req, Env, Handler, State, _Timeout, _Run) ->
-    %%io:format("--------> Req: ~p ~n", [Req]),
-    {ok, Req, Env}.
+    io:format("--------> upgrade:~n "),
+    Req0 = cowboy_req:set_resp_header(<<"name">>, "eric", Req),
+    Req1 = cowboy_req:set_resp_body(<<"<html><title>hello Mr.jack</title><body> hi, joe!\r\n</body></html>">>, Req0),
+    Req2 = cowboy_req:reply(200, Req1),
+    {ok, Req2, Env}.
 
 handle(Req, State=#state{}) ->
 	{ok, Req2} = cowboy_req:reply(200, Req),
