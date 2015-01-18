@@ -3,3 +3,4 @@
 *.app
 *.dump*
 *.log*
+./log/
