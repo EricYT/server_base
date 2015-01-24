@@ -40,6 +40,8 @@
 
 -spec start_http(ranch:ref(), non_neg_integer(), ranch_tcp:opts(),
 	cowboy_protocol:opts()) -> {ok, pid()} | {error, any()}.
+%% Like
+%% cowboy:start_http('little_web', 10, [{port, 9527}], [{env, [{dispatch, ProtoOpts}]])
 start_http(Ref, NbAcceptors, TransOpts, ProtoOpts)
 		when is_integer(NbAcceptors), NbAcceptors > 0 ->
 	ranch:start_listener(Ref, NbAcceptors,

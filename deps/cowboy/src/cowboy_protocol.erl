@@ -81,6 +81,7 @@ init(Ref, Socket, Transport, Opts) ->
 	MaxHeaders = get_value(max_headers, Opts, 100),
 	MaxKeepalive = get_value(max_keepalive, Opts, 100),
 	MaxRequestLineLength = get_value(max_request_line_length, Opts, 4096),
+	%%Middlewares = get_value(middlewares, Opts, [cowboy_test, cowboy_router, cowboy_handler]),
 	Middlewares = get_value(middlewares, Opts, [cowboy_router, cowboy_handler]),
 	Env = [{listener, Ref}|get_value(env, Opts, [])],
 	OnResponse = get_value(onresponse, Opts, undefined),
@@ -150,9 +151,11 @@ parse_request(Buffer, State=#state{max_request_line_length=MaxLength,
 		1 when ReqEmpty =:= MaxEmpty ->
 			error_terminate(400, State);
 		1 ->
+            io:format("(1)--------> parse_request:~p~n", [Buffer]),
 			<< _:16, Rest/bits >> = Buffer,
 			parse_request(Rest, State, ReqEmpty + 1);
 		_ ->
+            io:format("(2)--------> parse_request:~p~n", [Buffer]),
 			parse_method(Buffer, State, <<>>)
 	end.
 

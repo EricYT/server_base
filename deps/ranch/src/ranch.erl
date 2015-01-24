@@ -36,6 +36,8 @@
 
 -spec start_listener(ref(), non_neg_integer(), module(), any(), module(), any())
 	-> {ok, pid()} | {error, badarg}.
+%% Transport: ranch_tcp/ranch_ssl
+%% Protocol: cowboy_protocol
 start_listener(Ref, NbAcceptors, Transport, TransOpts, Protocol, ProtoOpts)
 		when is_integer(NbAcceptors) andalso is_atom(Transport)
 		andalso is_atom(Protocol) ->

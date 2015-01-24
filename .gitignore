@@ -5,5 +5,5 @@
 *.log*
 ./log/
 *.swp
-.rebar/
+./.rebar/
 *.html
