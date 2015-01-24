@@ -4,3 +4,5 @@
 *.dump*
 *.log*
 ./log/
+*.swp
+.rebar/
