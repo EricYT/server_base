@@ -10,7 +10,6 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    lager:start(),
     littleapp_sup:start_link().
 
 stop(_State) ->

@@ -2,7 +2,8 @@
     [
         {description, "The Little application"},
         {vsn, "1.0"},
-        {registered, [little]},
+        {modules, []},
+        {registered, [little, little_sup]},
         {applications, [
                 kernel,
                 stdlib,

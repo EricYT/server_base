@@ -50,8 +50,13 @@ init([]) ->
     %% cowboy http
     TransOpts = cowboy_router:compile([
                 {'_', [
+                        {"/",            cowboy_static, {priv_file, little_app, "index.html"}},
                         {"/ping[...]/", little_ping_handler, []},
-                        {"/pong", little_ping_handler, [{a, b}]}
+                        {"/pong", little_ping_handler, [{a, b}]},
+                        %% auth
+                        {"/auth", little_auth_handler, []},
+                        %% upload
+                        {"/files/[...]", cowboy_static, {priv_dir, upload, "files"}}
                       ]}
                 ]),
     Port = little_config:get("http", "port"),
